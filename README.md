@@ -18,13 +18,13 @@ etc.).
 gradle
 
 ```
-compile "org.jmdware:s3-bucket-recursor:1.0.0"
+compile "org.jmdware:s3-bucket-recursor:1.0.1"
 ```
 
 leiningen
 
 ```
-[org.jmdware/s3-bucket-recursor "1.0.0"]
+[org.jmdware/s3-bucket-recursor "1.0.1"]
 ```
 
 maven
@@ -33,9 +33,12 @@ maven
 <dependency>
     <groupId>org.jmdware</groupId>
     <artifactId>s3-bucket-recursor</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
+
+This library uses [slf4j](https://www.slf4j.org/), replacing commons-logging with the slf4j
+[shim](https://www.slf4j.org/legacy.html).
 
 # Usage
 
