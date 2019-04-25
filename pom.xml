@@ -6,7 +6,7 @@
 
     <groupId>org.jmdware</groupId>
     <artifactId>s3-bucket-recursor</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>s3-bucket-recursor</name>
     <description>Returns a lazy Stream&lt;S3ObjectSummary&gt;, which recursively queries prefix hierarchies in a s3 bucket as the stream is consumed.</description>
